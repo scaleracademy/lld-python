@@ -9,4 +9,5 @@ This repository contains the Python implementation of the LLD module. It has the
     - [Metaclass](design-patterns/src/creational/singleton/metaclass/singleton.py)
     - [Double Checked Locking](design-patterns/src/creational/singleton/threadsafe/singleton.py)
   - [Builder](design-patterns/src/creational/builder/database.py)
+  - [Prototype](design-patterns/src/creational/prototype/)
 
