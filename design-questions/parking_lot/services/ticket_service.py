@@ -32,7 +32,7 @@ class TicketService:
         parking_spot.status = ParkingSpotStatus.OCCUPIED
 
         # Save the spot in the database
-        self.spot_service.spot_repository.save_parking_spot(parking_spot)
+        self.spot_service.save_parking_spot(parking_spot)
 
         # Fetch the entry gate from the database
         entry_gate = self.gate_service.get_gate(request.entry_gate_id)
